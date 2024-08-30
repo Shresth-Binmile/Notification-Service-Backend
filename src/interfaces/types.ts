@@ -6,7 +6,9 @@ export interface envTypes {
     RABBITMQ_URI: string,
     SENDER_EMAIL: string,
     SENDER_PASSKEY: string,
-    RECIEVER_EMAIL?: string
+    RECIEVER_EMAIL?: string,
+    JWT_SECRET_KEY: string,
+    REDIS_PORT: string
 }
 
 export interface responseTypes {
